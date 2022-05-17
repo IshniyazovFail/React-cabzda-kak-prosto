@@ -1,40 +1,24 @@
-import React from 'react';
+import React, {useState} from 'react';
 import './App.css';
 import Accordion from "./components/Accordion/Accordion";
-import {Rating} from "./components/Rating/Rating";
-import {OnControledAccordion} from "./components/Accordion/OnControledAccordion";
-import {OnControledRating} from "./components/Rating/OnControledRating";
+import {Rating, RatingValueType} from "./components/Rating/Rating";
+import {OffOn} from "./components/OffOn/OffOn";
 
 function App() {
-    console.log("App rendered")
+
+    let [ratingValue, SetRatingValue] = useState<RatingValueType>(0)
+    let [collapsed, setCollapsed] = useState<boolean>(false)
+    let [indicator, setIndicator] = useState<boolean>(false)
     return (
+
+
         <div className="body">
-            <OnControledAccordion  titleValue={'Menu'}/>
-            <OnControledRating />
-            <OnControledAccordion  titleValue={'Users'}/>
-            <OnControledRating />
+            <OffOn on={indicator} onClick={setIndicator}/>
+            <Accordion titleValue={"Menu"} collapsed={collapsed} onClick={()=>{setCollapsed(!collapsed)}}/>
+            <Rating value={ratingValue} onClick={SetRatingValue}/>
 
-
-{/*            <Accordion titleValue={"Menu"} collapsed={true}/>
-            <Accordion titleValue={"Users"} collapsed={false}/>
-            <Rating value={0}/>
-            <Rating value={1}/>
-            <Rating value={2}/>
-            <Rating value={3}/>
-            <Rating value={4}/>
-            <Rating value={5}/>*/}
         </div>
     );
-}
-
-type PageTitlePropsType = {
-    title: string
-}
-
-function PageTitle(props: PageTitlePropsType) {
-    console.log("AppTitle rendered")
-
-    return <h1>{props.title}</h1>
 }
 
 
