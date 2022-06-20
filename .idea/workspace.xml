@@ -2,15 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7cc17b05-eb32-4344-8080-340109c52ebd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Rating/Rating.stories.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/NativeJS/lesson_8.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/NativeJS/lesson_8.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -37,7 +42,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Jest.get banknote list">
+  <component name="RunManager" selected="Jest.get Triangle Type">
     <configuration name="get Square Only Of Positive Integers" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -51,7 +56,7 @@
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="get Sum " type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
+    <configuration name="get Triangle Type" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
       <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
@@ -60,7 +65,7 @@
       <scope-kind value="TEST" />
       <test-file value="$PROJECT_DIR$/src/NativeJS/lesson8.test.ts" />
       <test-names>
-        <test-name value="get Sum " />
+        <test-name value="get Triangle Type" />
       </test-names>
       <method v="2" />
     </configuration>
@@ -77,19 +82,6 @@
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="is Even Sum Greater" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/src/NativeJS/lesson8.test.ts" />
-      <test-names>
-        <test-name value="is Even Sum Greater" />
-      </test-names>
-      <method v="2" />
-    </configuration>
     <configuration name="sum of first N numbers" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -103,13 +95,16 @@
       </test-names>
       <method v="2" />
     </configuration>
+    <configuration name="homework8.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/NativeJS/homework8.js" working-dir="$PROJECT_DIR$/src/NativeJS">
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Jest.get Triangle Type" />
         <item itemvalue="Jest.get banknote list" />
+        <item itemvalue="Node.js.homework8.js" />
         <item itemvalue="Jest.sum of first N numbers" />
         <item itemvalue="Jest.get Square Only Of Positive Integers" />
-        <item itemvalue="Jest.is Even Sum Greater" />
-        <item itemvalue="Jest.get Sum " />
       </list>
     </recent_temporary>
   </component>
@@ -124,7 +119,7 @@
       <workItem from="1655560144302" duration="47000" />
       <workItem from="1655560253348" duration="2342000" />
       <workItem from="1655642547354" duration="9136000" />
-      <workItem from="1655707491573" duration="2362000" />
+      <workItem from="1655707491573" duration="4498000" />
     </task>
     <servers />
   </component>

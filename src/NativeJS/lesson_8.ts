@@ -28,7 +28,7 @@ export function getTriangleType(a: number, b: number, c: number): string {
         return "01"
     } else if (a !== b && b !== c && a !== c && a + b >= c && b + c >= a && c + a >= b) {
         return "11"
-    } else if (a !== b && b !== c && a !== c && a + b < c || b + c < a || c + a < b) return "00"
+    } else  return "00"
 }
 
 // 3. Функция getSum принимает параметром целое число и возвращает
@@ -110,10 +110,7 @@ export function getBanknoteList(amountOfMoney: number): Array<number> {
                 newMoney = newMoney - banknotes[i]
                 newArray.push(banknotes[i])
             }
-
-
         }
-
     }
     return newArray
 }
