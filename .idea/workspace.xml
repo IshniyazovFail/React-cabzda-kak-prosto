@@ -2,8 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7cc17b05-eb32-4344-8080-340109c52ebd" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/ControlledInput.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Select/Select.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Select/Select.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/UncontrolledInput.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NativeJS/lesson_8.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/NativeJS/lesson_8.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.storybook/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/.storybook/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Accordion/Accordion.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Accordion/Accordion.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,6 +22,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="TypeScript JSX File" />
       </list>
     </option>
   </component>
@@ -29,33 +38,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs.jest.jest_package&quot;: &quot;D:/it_incubator/tscript/my-app/node_modules/react-scripts&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;D:\\it_incubator\\tscript\\my-app\\node_modules\\typescript\\lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/it_incubator/tscript/my-app/src/components/Select",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs.jest.jest_package": "D:/it_incubator/tscript/my-app/node_modules/react-scripts",
+    "nodejs_package_manager_path": "npm",
+    "ts.external.directory.path": "D:\\it_incubator\\tscript\\my-app\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\it_incubator\tscript\my-app\src\components\Select" />
+    </key>
+  </component>
   <component name="RunManager" selected="Jest.get Triangle Type">
-    <configuration name="get Square Only Of Positive Integers" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/src/NativeJS/lesson8.test.ts" />
-      <test-names>
-        <test-name value="get Square Only Of Positive Integers" />
-      </test-names>
-      <method v="2" />
-    </configuration>
     <configuration name="get Triangle Type" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
       <node-interpreter value="project" />
       <node-options value="" />
@@ -82,29 +84,36 @@
       </test-names>
       <method v="2" />
     </configuration>
-    <configuration name="sum of first N numbers" type="JavaScriptTestRunnerJest" temporary="true" nameIsGenerated="true">
-      <node-interpreter value="project" />
-      <node-options value="" />
-      <jest-package value="$PROJECT_DIR$/node_modules/react-scripts" />
-      <working-dir value="$PROJECT_DIR$" />
-      <envs />
-      <scope-kind value="TEST" />
-      <test-file value="$PROJECT_DIR$/src/NativeJS/lesson8.test.ts" />
-      <test-names>
-        <test-name value="sum of first N numbers" />
-      </test-names>
+    <configuration name="homework8.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/NativeJS/homework8.js" working-dir="$PROJECT_DIR$/src/NativeJS">
       <method v="2" />
     </configuration>
-    <configuration name="homework8.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/NativeJS/homework8.js" working-dir="$PROJECT_DIR$/src/NativeJS">
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="storybook" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="storybook" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.start" />
+        <item itemvalue="npm.storybook" />
         <item itemvalue="Jest.get Triangle Type" />
         <item itemvalue="Jest.get banknote list" />
         <item itemvalue="Node.js.homework8.js" />
-        <item itemvalue="Jest.sum of first N numbers" />
-        <item itemvalue="Jest.get Square Only Of Positive Integers" />
       </list>
     </recent_temporary>
   </component>
@@ -119,7 +128,8 @@
       <workItem from="1655560144302" duration="47000" />
       <workItem from="1655560253348" duration="2342000" />
       <workItem from="1655642547354" duration="9136000" />
-      <workItem from="1655707491573" duration="4498000" />
+      <workItem from="1655707491573" duration="4688000" />
+      <workItem from="1655729111811" duration="14175000" />
     </task>
     <servers />
   </component>

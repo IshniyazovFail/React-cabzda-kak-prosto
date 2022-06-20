@@ -1,0 +1,29 @@
+.selectName{
+    width: 100px;
+    height: 30px;
+    border: solid 1px royalblue;
+    text-align: center;
+    margin-left: 50px;
+    font-weight: 600;
+    background-color: white;
+    border-radius: 5px;
+    font-style: italic;
+}
+.selectName:hover{
+    cursor: pointer;
+}
+.selectBody{
+    border: solid 1px royalblue;
+    background-color: white;
+    width: 100px;
+    margin-left: 50px;
+    border-radius: 5px;
+    font-style: italic;
+    padding: 5px 0;
+
+}
+
+.name:hover{
+    background-color: whitesmoke;
+    cursor: pointer;
+}
