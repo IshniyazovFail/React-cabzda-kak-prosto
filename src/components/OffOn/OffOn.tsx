@@ -1,11 +1,11 @@
-import React from "react";
+import React, {useCallback} from "react";
 
 type PropsType = {
     on: boolean
     onClick: (on: boolean) => void
 }
 
-export const OffOn = (p: PropsType) => {
+export const OffOn = React.memo((p: PropsType) => {
 
     const onStyle = {
         width: "50px",
@@ -33,7 +33,7 @@ export const OffOn = (p: PropsType) => {
         display: "flex"
     };
 
-
+    console.log("ONOFF")
     return (
         <div style={block}>
             <div onClick={() => {p.onClick(true)}} style={onStyle}>On</div>
@@ -41,4 +41,4 @@ export const OffOn = (p: PropsType) => {
             <div style={indicatorStyle}></div>
         </div>
     )
-}
+})

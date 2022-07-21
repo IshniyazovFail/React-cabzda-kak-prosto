@@ -3,9 +3,8 @@ import './App.css';
 import Accordion from "./components/Accordion/Accordion";
 import {Rating, RatingValueType} from "./components/Rating/Rating";
 import {OffOn} from "./components/OffOn/OffOn";
-import {UncontrolledInput, UncontrolledInputRef} from "./components/UncontrolledInput";
-import {ControlledCheckbox, ControlledInput, ControlledSelect} from "./components/ControlledInput";
 import {Select} from "./components/Select/Select";
+import {ReactMemoComponent} from "./components/ReactMemo/ReactMemo";
 
 function App() {
 
@@ -27,11 +26,7 @@ function App() {
             }}/>
             <Rating value={ratingValue} onClick={SetRatingValue}/>
             <Select callback={()=> {}} items={items}/>
-            {/*  <UncontrolledInput/>
-            <UncontrolledInputRef/>
-            <ControlledInput/>
-            <ControlledCheckbox/>
-            <ControlledSelect/>*/}
+            <ReactMemoComponent/>
         </div>
     );
 }

@@ -8,7 +8,7 @@ type AccordionPropsType ={
     callback:(value:any)=>void
 }
 
-function Accordion(props: AccordionPropsType) {
+const Accordion=React.memo((props: AccordionPropsType) =>{
     console.log("Accordion rendered")
 
     return (
@@ -19,7 +19,7 @@ function Accordion(props: AccordionPropsType) {
         )
 
 
-}
+})
 
 type AccordionTitlePropsType={
     title:string
@@ -27,10 +27,10 @@ type AccordionTitlePropsType={
     onClick:()=>void
 
 }
-function AccordionTitle(props:AccordionTitlePropsType) {
+const AccordionTitle=React.memo((props:AccordionTitlePropsType)=> {
     console.log("AccordionTitle rendered")
     return <h3 onClick={props.onClick}>---{props.title}---</h3>
-}
+})
 
 type itemsPropsType={
     name:string
@@ -41,7 +41,7 @@ type AccordionBodyType = {
     onclick:(value:any)=>void
 }
 
-function AccordionBody(p:AccordionBodyType) {
+const AccordionBody=React.memo((p:AccordionBodyType)=> {
     console.log("AccordionBody rendered")
     return (
         <ul>
@@ -51,5 +51,5 @@ function AccordionBody(p:AccordionBodyType) {
         </ul>
 
     )
-}
+})
 export default Accordion
