@@ -2,28 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7cc17b05-eb32-4344-8080-340109c52ebd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/ReactMemo/ReactMemo.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/my-app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/my-app.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Select/SelectCity.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Select/SelectUseMemo.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NativeJS/lesson8.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/NativeJS/lesson8.test.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NativeJS/lesson_8.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/NativeJS/lesson_8.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Accordion/Accordion.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Accordion/Accordion.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Accordion/OnControledAccordion.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Accordion/OnControledAccordion.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ControlledInput.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ControlledInput.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/OffOn/OffOn.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/OffOn/OffOn.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Rating/OnControledRating.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Rating/OnControledRating.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Rating/OnControledRating.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Rating/OnControledRating.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Rating/Rating.stories.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Rating/Rating.stories.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Rating/Rating.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Rating/Rating.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Select/Select.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Select/Select.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Select/Select.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Select/Select.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/UncontrolledInput.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/UncontrolledInput.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/react-app-env.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/react-app-env.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ReactMemo/ReactMemo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ReactMemo/ReactMemo.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,7 +128,9 @@
       <workItem from="1658404750032" duration="572000" />
       <workItem from="1658408716575" duration="1260000" />
       <workItem from="1658414019357" duration="2291000" />
-      <workItem from="1658416361895" duration="3171000" />
+      <workItem from="1658416361895" duration="6701000" />
+      <workItem from="1658471202095" duration="2186000" />
+      <workItem from="1658498511317" duration="8584000" />
     </task>
     <servers />
   </component>
@@ -169,7 +154,6 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/components/OffOn/OffOn.tsx</url>
           <line>7</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>

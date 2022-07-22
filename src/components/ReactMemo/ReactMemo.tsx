@@ -1,11 +1,12 @@
-import React, {useCallback, useState} from 'react';
+import React, {useCallback, useMemo, useState} from 'react';
 
 
-const Counter=(props:{count:number,callback:()=>void})=>{
+const Counter=React.memo((props:{count:number,callback:()=>void})=>{
+    console.log("Counter")
     return<div>{props.count}
         <button onClick={()=>{props.callback()}}>+</button>
     </div>
-}
+})
 
 const Users=React.memo((props:{users:Array<string>})=>{
     console.log("USERS")
@@ -23,9 +24,12 @@ export const ReactMemoComponent = () => {
 const addUser=()=>{
     setUsers([...users,"Kolyan" + new Date().toLocaleDateString()])
 }
+const counterCallback=useCallback( ()=>{
+    setCount(count+1)
+},[count])
     return (
         <div>
-            <Counter callback={()=>{setCount(count+1)}}  count={count}/>
+            <Counter callback={counterCallback}  count={count}/>
             <Users users={users}/>
             <button onClick={addUser}>Add user</button>
         </div>
