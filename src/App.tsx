@@ -6,6 +6,7 @@ import {OffOn} from "./components/OffOn/OffOn";
 import {Select} from "./components/Select/Select";
 import {ReactMemoComponent} from "./components/ReactMemo/ReactMemo";
 import {SelectUseMemo} from "./components/Select/SelectUseMemo";
+import {Clock} from "./components/watch/Clock";
 
 export type CityType={
     id:number,
@@ -53,6 +54,8 @@ function App() {
             <ReactMemoComponent/>
             <hr/>
             <SelectUseMemo city={city}/>
+            <hr/>
+            <Clock/>
         </div>
     );
 }

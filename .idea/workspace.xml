@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7cc17b05-eb32-4344-8080-340109c52ebd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Select/SelectCity.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Select/SelectUseMemo.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/watch/Clock.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/watch/analogClock.module.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/watch/analogClock.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/ReactMemo/ReactMemo.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ReactMemo/ReactMemo.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +40,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/it_incubator/tscript/my-app/src/components/Select&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/it_incubator/tscript/my-app/src/components/watch&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs.jest.jest_package&quot;: &quot;D:/it_incubator/tscript/my-app/node_modules/react-scripts&quot;,
@@ -49,6 +51,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\it_incubator\tscript\my-app\src\components\watch" />
       <recent name="D:\it_incubator\tscript\my-app\src\components\Select" />
     </key>
   </component>
@@ -130,7 +133,11 @@
       <workItem from="1658414019357" duration="2291000" />
       <workItem from="1658416361895" duration="6701000" />
       <workItem from="1658471202095" duration="2186000" />
-      <workItem from="1658498511317" duration="8584000" />
+      <workItem from="1658498511317" duration="8758000" />
+      <workItem from="1659523592280" duration="6006000" />
+      <workItem from="1659880514585" duration="621000" />
+      <workItem from="1659881158920" duration="1381000" />
+      <workItem from="1660897319141" duration="1552000" />
     </task>
     <servers />
   </component>
