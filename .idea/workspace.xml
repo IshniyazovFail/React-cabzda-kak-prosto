@@ -2,12 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7cc17b05-eb32-4344-8080-340109c52ebd" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/watch/Clock.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/watch/analogClock.module.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/watch/analogClock.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/watch/useEffect.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.storybook/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.storybook/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.storybook/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.storybook/.idea/my-app.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.storybook/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.storybook/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.storybook/preview.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/Button.stories.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/Button.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/Header.stories.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/Header.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/Introduction.stories.mdx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/Page.stories.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/Page.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/assets/code-brackets.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/assets/colors.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/assets/comments.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/assets/direction.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/assets/flow.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/assets/plugin.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/assets/repo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/assets/stackalt.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/button.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/header.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/stories/page.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -107,8 +130,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.start" />
         <item itemvalue="npm.storybook" />
+        <item itemvalue="npm.start" />
         <item itemvalue="Jest.get Triangle Type" />
         <item itemvalue="Jest.get banknote list" />
         <item itemvalue="Node.js.homework8.js" />
@@ -137,7 +160,10 @@
       <workItem from="1659523592280" duration="6006000" />
       <workItem from="1659880514585" duration="621000" />
       <workItem from="1659881158920" duration="1381000" />
-      <workItem from="1660897319141" duration="1552000" />
+      <workItem from="1660897319141" duration="3762000" />
+      <workItem from="1660909039004" duration="568000" />
+      <workItem from="1661174250375" duration="646000" />
+      <workItem from="1669128768703" duration="5000" />
     </task>
     <servers />
   </component>

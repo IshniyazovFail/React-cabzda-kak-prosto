@@ -7,6 +7,7 @@ import {Select} from "./components/Select/Select";
 import {ReactMemoComponent} from "./components/ReactMemo/ReactMemo";
 import {SelectUseMemo} from "./components/Select/SelectUseMemo";
 import {Clock} from "./components/watch/Clock";
+import {UseEffect} from "./components/watch/useEffect";
 
 export type CityType={
     id:number,
@@ -56,6 +57,8 @@ function App() {
             <SelectUseMemo city={city}/>
             <hr/>
             <Clock/>
+            <hr/>
+            <UseEffect/>
         </div>
     );
 }
